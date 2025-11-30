@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browser Header</title>
+  </head>
+  <body>
+      <h1 class="title">Browser Header</h1>
+      <p id="currentTime"></p>
+      <script>
+      function showTime() {
+   const ua = navigator.userAgent;
+	document.getElementById('currentTime').innerHTML = ua;
+	
+}
+showTime();
+      </script>
+  </body>
+</html>
